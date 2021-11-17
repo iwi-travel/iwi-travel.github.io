@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="assets/js/splide.min.js"></script>
+        <link rel="stylesheet" href="assets/css/splide.min.css">
+        <link rel="stylesheet" href="common.css">
+    </head>
+    <body>
+        <div id="mobile-navigation" class="display-none">
+            <a class="mobile-navigation__item" href="#main">Главная</a>
+            <a class="mobile-navigation__item" href="#hotel">Апарт-отель</a>
+            <a class="mobile-navigation__item" href="#service">Сервис</a>
+            <a class="mobile-navigation__item" href="#restaurant">Ресторан</a>
+            <a class="mobile-navigation__item" href="#uk">Управляющая компания</a>
+            <a class="mobile-navigation__item" href="#contacts">Контакты</a>
+        </div>
+        <div class="header">
+            <div class="logo">
+                <div class ="logo__name">RANOVSKY PARK</div>
+                <div class ="logo__description">APART HOTEL</div>
+            </div>
+            <div class="navigation">
+                <a class="navigation__item" href="#main">Главная</a>
+                <a class="navigation__item" href="#hotel">Апарт-отель</a>
+                <a class="navigation__item" href="#service">Сервис</a>
+                <a class="navigation__item" href="#restaurant">Ресторан</a>
+                <a class="navigation__item" href="#uk">Управляющая компания</a>
+                <a class="navigation__item" href="#contacts">Контакты</a>
+            </div>
+            <button id="navigation-bttn" class="mobile_nav_icon">
+            </button>
+        </div>
+        <div id="layout">
+            <div id="image-slider" class="splide">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                                <div class="main-image" style="background-image: url(assets/images/img6.webp);"></div>
+                          </li>
+                          <li class="splide__slide">
+                              <div class="main-image" style="background-image: url(assets/images/img7.webp);"></div>
+                          </li>
+                          <li class="splide__slide">
+                              <div class="main-image" style="background-image: url(assets/images/img8.webp);"></div>
+                          </li>
+                          <li class="splide__slide">
+                              <div class="main-image" style="background-image: url(assets/images/img9.webp);"></div>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="block">
+                <div id="main" class="wrapper wrapper_vertical">
+                    <h1 class="block__header">
+                        RANOVSKY PARK - это апартаментный комплекс премиум-класса на берегу Черного моря.</h1>
+                    <div class="block__content">
+                        <div class="block__content-text">
+                            Уникальный архитектурный проект с богатой историей расположен в десяти минутах ходьбы от моря и находится в самом центре курортной инфраструктуры, но в тоже время удален от городской суеты и шумных трасс. Внутри RANOVSKY PARK - это современные инженерные системы в сочетании с продуманными планировками. Эксклюзивный дизайн и премиальный сервис делает его неповторимым в этой локации.
+                        </div>
+                        <div class="block__content-photo">
+                            <img id="intro-photo" src="assets/images/img1.png">
+                            <iframe id="intro-video" width="550" height="315"
+                                src="https://www.youtube.com/embed/Rqmog5WL7hg?autoplay=1">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="wrapper mobile-column-reverse">
+                    <div class="block__content-photo mr32">
+                        <img src="assets/images/img2.png">
+                    </div>
+                    <div class="block__content block__content-vertical">
+                    <h1 class="block__header">УНИКАЛЬНЫЙ МИКРОКЛИМАТ И ЦЕЛЕБНЫЙ ВОЗДУХ</h1>
+                    
+                        <div class="block__content-text">
+                            Закрытая благоустроенная территория с авторским ландшафтным дизайном на границе со знаменитым «зеленым сердцем курорта» - парком Дендрарием. Деревья и кустарники, привезенные из самых разных уголков планеты, создают на территории RANOVSKY PARK уникальный микроклимат и целебный воздух. Камерное пространство в живописном месте с зонами отдыха и прогулочными тропинками.                        
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="interiors-slider" class="splide">
+                <div class="splide__track">
+                      <ul class="splide__list">
+                          <li class="splide__slide">
+                              <div class="interior-image" style="background-image: url(assets/images/img10.webp);">
+                                <div class="center">
+                                    <div class="block__content block__content-vertical">
+                                        <div class="block__header color-white">Современная роскошь</div>
+                                        <div class="block__content-text color-white mr0">
+                                            Интерьер в стиле арт-деко, в котором сочетаются<br>
+                                            черты направлений неоклассики и модернизма,<br>
+                                            позволит вызвать удивление и создать богемную<br>
+                                            атмосферу апарт-отеля.<br>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </li>
+                          <li class="splide__slide">
+                              <div class="interior-image" style="background-image: url(assets/images/img11.webp);">
+                                <div class="center">
+                                    <div class="block__content block__content-vertical">
+                                        <div class="block__header color-white">Современная роскошь</div>
+                                        <div class="block__content-text color-white mr0">
+                                            Смелые решения, неуместные для других стилей,<br>
+                                            создают роскошь — воплощение богатства и<br>
+                                            помпезности. В таком интерьере не место мелким<br>
+                                            деталям.<br>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </li>
+                          <li class="splide__slide">
+                              <div class="interior-image" style="background-image: url(assets/images/img12.webp);">
+                                <div class="center">
+                                    <div class="block__content block__content-vertical">
+                                        <div class="block__header color-white">Удобство и комфорт</div>
+                                        <div class="block__content-text color-white mr0">
+                                            Здесь царствуют массивные предметы, мгновенно<br>
+                                            привлекающие внимание. Картины подчеркивают<br>
+                                            оригинальность дизайна и разбавляют атмосферу.<br>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="block">
+                <div id="service" class="wrapper ">
+                    
+                    <div class="block__content block__content-vertical">
+                    <h1 class="block__header">СЕРВИС</h1>
+                    
+                        <div class="block__content-text">
+                            <ul>
+                                <li>Служба приема - круглосуточный прием</li> 
+
+                                <li>Круглосуточная охрана и видеонаблюдение, система контроля доступа</li>
+                                
+                                <li>Ежедневная комплексная уборка апартамента горничной, включая заправку постелей</li> 
+                                
+                                <li>Смена постельного белья 1 раз в 2 дня</li>
+                                
+                                <li>Смена использованных полотенец ежедневно</li>
+                                
+                                <li>Room-service 24 часа</li> 
+                                
+                                <li>Трансфер до пляжа</li> 
+                                
+                                <li>Поднос багажа</li> 
+                                
+                                <li>Вручение корреспонденции гостям</li> 
+                                
+                                <li>Спасатель у бассейна</li> 
+                                
+                                <li>Утренняя побудка (по просьбе)</li> 
+                                
+                                <li>Прачечная и химчистка</li> 
+                                
+                                <li>Автомат для чистки обуви</li>
+                                
+                                <li>Телекоммуникационные услуги и спутниковое телевидение</li>
+                                
+                                <li>Хранение ценностей в сейфе администрации</li>
+                                
+                                <li>Хранение багажа</li>
+                                
+                                <li>Приём платежей по кредитным картам</li> 
+                                
+                                <li>Организация встреч и проводов, включая транспортную доставку гостей и багажа (трансфер)</li>
+                                
+                                <li>Вызов такси</li> 
+                                
+                                <li>Аренда (прокат) автомашины</li>  
+                                
+                                <li>Бронирование и/или продажа билетов на различные виды транспорта</li>
+                                
+                                <li>Бронирование и/или продажа билетов в театры, на спортивные, зрелищные мероприятия</li>
+                                
+                                <li>Туристические услуги:</li>
+                                
+                                <li>туристская информация</li>
+                                
+                                <li>экскурсии, гиды</li>
+                                
+                                <li>Медицинские услуги: вызов скорой помощи, пользование аптечкой</li>  
+                            </ul>                      
+                        </div>
+                        
+                    </div>
+                    <div class="block__content-photo ml32">
+                        <img src="assets/images/img5.png">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div id="restaurant" class="wrapper mobile-column-reverse">
+                    <div class="block__content-photo mr32">
+                        <img src="assets/images/img3.png">
+                    </div>
+                    <div class="block__content block__content-vertical">
+                    <h1 class="block__header">РЕСТОРАН</h1>
+                    
+                        <div class="block__content-text">
+                            <ul class="block__content-items">
+                                <li>Ресторан</li>
+
+                                <li>Бар</li> 
+                                
+                                <li>Обслуживание:</li>
+                                
+                                <li>завтрак “шведский стол” (7.00-10.00);</li>
+                                
+                                <li>круглосуточное предоставление услуг питания;</li>
+                                
+                                <li>Обслуживание в номере:</li>
+                                
+                                <li>круглосуточно</li>
+                                
+                                <li>меню room-service в номере</li> 
+                            </ul>                       
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="wrapper ">
+                    
+                    <div class="block__content block__content-vertical">
+                    <h1 class="block__header">АРХИТЕКТУРА</h1>
+                    <p class="block__header-addon">История, дошедшая до наших дней.</p>
+                    
+                        <div class="block__content-text">
+                            Уникальный архитектурный проект с богатейшей историей в самом центре Сочи.
+                            На территории современного комплекса в начале ХХ века располагалась дача братьев Рановских. Вилла была во многом уникальна. Во-первых тем, что у нее для строений того времени редкая высота - 5 этажей.
+                            Во-вторых, благодаря своему расположению она неплохо скрыта от глаз прохожих, несмотря на свои немалые размеры.
+                            Здание построено в популярном в те годы стиле модерн. Оно безусловно впечатляет своей архитектурой.
+                            В 1993 году историческое здание было заменено на новое, возведенное в монолите. При этом сохранен точный первоначальный вид.
+                            В 2021 году проведена реновация с полным изменением концепции.                     
+                        </div>
+                        
+                    </div>
+                    <div class="block__content-photo ml32">
+                        <img src="assets/images/img4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div id="hotel" class="wrapper wrapper_vertical align-start">
+                    <h1 class="block__header">ЗАСТРОЙЩИК</h1>
+                    <div class="block__content-text">
+                        Akinava group — застройщик с концептуальным подходом, реализует свои проекты, продумывая каждую деталь интерьера. Премиальное качество работ и лучшие материалы, сосредоточенность на конечном результате — все это и есть философия Akinava group. Только при таком подходе получается продукт которым действительно можно гордиться
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div id="uk" class="wrapper wrapper_vertical align-start" >
+                    <h1 class="block__header">УПРАВЛЯЮЩАЯ КОМПАНИЯ</h1>
+                    <div class="block__content-text">
+                        В комплексе RANOVSKY PARK работает Управляющая компания, которая предоставляет полный объем сервисов по управлению апартаментами и строит управление на базе европейских стандартов сферы гостеприимства и современных гостиничных технологий.
+                        Управляющая компания гарантирует качественное обслуживание апартаментов и ставит своей целью индивидуальный подход в предоставлении сервиса, максимальный учёт пожеланий каждого гостя и собственника при формировании пакета услуг.                   
+                    </div>
+                </div>
+            </div>
+            <div id="contacts" class="block">
+                <div class="wrapper wrapper_vertical align-start">
+                    <form action="">
+                        <h1 class="block__header">КОНТАКТЫ</h1>
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" placeholder="Введите своё имя">
+                        <label for="mail">Почта</label>
+                        <input type="text" id="mail" name="mail" placeholder="Добавьте эл. почту">
+                        <label for="phone">Телефон</label>
+                        <input type="text" id="phone" name="phone" placeholder="Добавьте номер телефона">
+                        <label for="message">Сообщение</label>
+                        <textarea type="text" id="message" name="message" placeholder="Добавьте сообщение"></textarea>
+                    </form>
+                    <button class="submit-contacts-btn" type="submit">Отправить</button>
+                </div>
+            </div>
+            <div class="block">
+                <div class="wrapper">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5bba8fc39cb0f06da2b985ef23a25e3f87288b67645165b5b01c5666077c0137&amp;width=100%25&amp;height=309&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        let div = document.createElement('div');
+        div.className = "alert";
+        div.innerHTML = "<strong>Всем привет!</strong> Вы прочитали важное сообщение.";
+
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide('#image-slider', {type: 'loop'}).mount();
+            new Splide('#interiors-slider', {type: 'loop'}).mount();
+
+            document.getElementById('intro-photo').addEventListener('click', () => {
+                document.getElementById('intro-photo').style.display = 'none';
+                document.getElementById('intro-video').style.display = 'block';
+            })
+
+            document.getElementById("navigation-bttn").addEventListener('click', () => {
+                document.getElementById("mobile-navigation").classList.toggle("display-none")
+                document.getElementById("layout").classList.toggle("layout_non-scrollable")
+            })
+
+            // document.getElementsByClassName("mobile-navigation__item").addEventListener('click', () => {
+            //     console.log("div appended")
+            //     document.getElementById("mobile-navigation").classList.toggle("display-none")
+            //     document.getElementById("layout").classList.toggle("layout_non-scrollable")
+            // })
+
+            const mobileItems = document.getElementsByClassName("mobile-navigation__item");
+            for (const item of mobileItems) {
+                item.addEventListener('click', () => {
+                    document.getElementById("mobile-navigation").classList.toggle("display-none")
+                    document.getElementById("layout").classList.toggle("layout_non-scrollable")
+                })
+            }
+
+            // document.getElementsByClassName("mobile-navigation__item").forEach(element => {
+            //     element.addEventListener('click', () => {
+            //         console.log("div appended")
+            //         document.getElementById("mobile-navigation").classList.toggle("display-none")
+            //         document.getElementById("layout").classList.toggle("layout_non-scrollable")
+            //     })
+            // });
+        } );
+    </script>
+</html>
